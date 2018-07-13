@@ -6,7 +6,46 @@
     margin-left: 20px;
 }
 
+.submissions {
+    line-height: 25px;
+}
+
 .purple-text {
     color: var(--purple);
     font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 10px;
+    margin: 20px 0 30px 0;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:hover{
+    background-color: #f2f2f2
+}
+
+tr:first-child:hover {
+    background-color: white;
+}
+
+th {
+    color: black;
+    border-bottom: 1px black solid;
+}
+
+#none {
+    font-style: italic;
+}
+
+#last-table {
+    border-bottom: 1px black solid;
 }
