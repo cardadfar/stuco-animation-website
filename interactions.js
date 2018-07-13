@@ -1,5 +1,9 @@
-$(".syllabus").click(function() {
+$("#syllabus").click(function() {
     window.open('syllabus.pdf', '_blank');
+});
+
+$("#google-drive").click(function() {
+    window.open('www.google.com', '_blank');
 });
 
 $("#overview").click(function() {
