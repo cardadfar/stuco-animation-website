@@ -18,3 +18,22 @@ $("#assignments").click(function() {
     window.location.href = 'assignments.html';
 });
 
+
+/*-------------------FAQ------------------*/
+
+$(".qa").click(function() {
+	if($(this).children(".answer").hasClass("answer-click")) {
+    	$(this).children(".answer").removeClass("answer-click");
+    	if($(".answer-click").length == 0) {
+			$(".close-all").removeClass("close-all-visible");
+    	}
+    } else {
+    	$(this).children(".answer").addClass("answer-click");
+    	$(".close-all").addClass("close-all-visible");    	
+    }
+});
+
+$(".close-all").click(function() {
+	$(this).removeClass("close-all-visible");
+    $(".qa").children(".answer").removeClass("answer-click");
+})

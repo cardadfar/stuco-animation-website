@@ -1,0 +1,57 @@
+:root {
+	--purple: #570268;
+}
+
+.close-all {
+    font-family: Arial;
+    font-size: 12px;
+    margin-top: 20px;
+    width: 0;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.close-all-visible {
+    opacity: 1;
+    width: 100px;
+}
+
+.close-all-visible:hover {
+    background: #efeded;
+}
+
+.qa {
+    width: 80%;
+    margin: 20px 3% 40px 0;
+    background: #f4f4f4;
+    border: 1px #efeded solid;
+    border-bottom-width: 2px;
+}
+
+.qa:hover {
+    border-color: var(--purple);
+}
+
+.question {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 40px;
+    padding-left: 20px;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.answer-click {
+    max-height: 50vh;
+    padding: 0 0 10px 30px;
+}
