@@ -14,7 +14,7 @@
     border-bottom: 1px black solid;
     opacity: 0;
     overflow: hidden;
-    transition: all 0.5s;
+    transition: all 0.25s;
 }
 
 .close-all-visible {
@@ -54,4 +54,19 @@
 .answer-click {
     max-height: 50vh;
     padding: 0 0 10px 30px;
+}
+
+
+@media (max-width: 550px) {
+
+    .qa {
+        width: 92%;
+    }
+
+    .question {
+        font-size: 11px;
+    }
+    .close-all-visible {
+        width: 70px;
+    }
 }
