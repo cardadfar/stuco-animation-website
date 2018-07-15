@@ -1,0 +1,73 @@
+:root {
+	--purple: #570268;
+}
+
+.main {
+    width: 85%;
+    margin: 0 0 0 0;
+}
+
+.main-title {
+    margin-left: 4%;
+}
+
+.divider {
+    width: calc(60px + 80%);
+    height: 1px;
+    background: #bcbcbc;
+    margin: 0 0 0 4%; 
+}
+
+.divider:first-of-type {
+    margin-top: 30px;
+}
+
+.software {
+    padding-left: 4%;
+    transition: all 0.25s;
+}
+
+.software-title {
+    width: 80%
+    height: 40px;
+    padding: 20px 3% 20px 0;
+}
+
+.software-icon {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.software-name {
+    margin-left: 60px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.software-description {
+    width: 80%;
+    margin-left: 60px;
+    padding-bottom: 30px;
+}
+
+#after-effects:hover {
+    background: #f7e5ff;
+}
+
+#animate:hover {
+    background: #ffeded;
+}
+
+#illustrator:hover {
+    background: #fcf7d6;
+}
+
+#photoshop:hover {
+    background: #e8f3f4;
+}
+
+.src {
+    color: grey;
+    font-size: 10px;
+}

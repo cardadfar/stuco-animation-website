@@ -18,6 +18,10 @@ $("#assignments").click(function() {
     window.location.href = 'assignments.html';
 });
 
+$("#software").click(function() {
+    window.location.href = 'software.html';
+});
+
 $("#faq").click(function() {
     window.location.href = 'faq.html';
 });
