@@ -71,3 +71,38 @@
     color: grey;
     font-size: 10px;
 }
+
+@media (max-width: 550px) {
+
+    .main {
+        width: 80%;
+    }
+
+    .main-title {
+        margin-left: 7%;
+    }
+
+    .divider {
+        width: calc(40px + 80%);
+    }
+
+    .software {
+        padding-left: 7%;
+    }  
+
+    .software-title {
+        height: 30px;
+    }
+
+    .software-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .software-name {
+        margin-left: 40px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+}
