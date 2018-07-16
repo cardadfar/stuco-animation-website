@@ -1,5 +1,11 @@
 :root {
+    --software-icon-width: 36px;
+    --software-icon-height: 36px;
+
 	--purple: #570268;
+    --red: #ff5439;
+    --orange: #ffb33a;
+    --turquoise: #92bbfc;
 }
 
 .main {
@@ -30,13 +36,44 @@
 .software-title {
     width: 80%
     height: 40px;
-    padding: 20px 3% 20px 0;
+    padding: 20px 3% 5px 0;
 }
 
 .software-icon {
-    width: 40px;
-    height: 40px;
+    width: var(--software-icon-width);
+    height: var(--software-icon-height);
+    border: 2px solid var(--purple);
     float: left;
+}
+
+
+.software-icon p {
+    position: absolute;
+    font-size: 20px;
+    width: var(--software-icon-width);
+    text-align: center;
+    line-height: var(--software-icon-height);
+    color: var(--purple);
+    z-index: 1;
+}
+
+.software:hover .software-icon p {
+    color: white;
+    transition: all 0.2s;
+    transition-delay: 0.1s;
+}
+
+
+.software .color-bar {
+    background: var(--purple);
+    position: absolute;
+    width: 0;
+    height: var(--software-icon-height);
+    transition: all 0.5s;
+}
+
+.software:hover .color-bar{
+    width: var(--software-icon-width);
 }
 
 .software-name {
@@ -45,27 +82,114 @@
     line-height: 40px;
 }
 
+.software-click {
+    margin-left: 20px;
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+    transition: all 0.25s;
+}
+
+.software:hover .software-click {
+    color: var(--purple);
+    text-shadow: 0.3px 0.3px black;
+    margin-left: 60px;
+}
+
 .software-description {
     width: 80%;
     margin-left: 60px;
     padding-bottom: 30px;
 }
 
+/*----------------------- after effects icon ------------------*/
+
 #after-effects:hover {
     background: #f7e5ff;
 }
+
+/*----------------------- animate icon ------------------*/
 
 #animate:hover {
     background: #ffeded;
 }
 
+#an-icon {
+    border-color: var(--red);
+}
+
+#an-icon .color-bar {
+    background: var(--red);
+}
+
+#an-icon p {
+    color: var(--red);
+}
+
+.software:hover #an-icon p {
+    color: white;
+}
+
+
+.software:hover #an-click{
+    color: var(--red);
+}
+
+
+/*----------------------- illustrator icon ------------------*/
+
 #illustrator:hover {
     background: #fcf7d6;
 }
 
+#ai-icon {
+    border-color: var(--orange);
+}
+
+#ai-icon .color-bar {
+    background: var(--orange);
+}
+
+#ai-icon p {
+    color: var(--orange);
+}
+
+.software:hover #ai-icon p {
+    color: white;
+}
+
+.software:hover #ai-click{
+    color: var(--orange);
+}
+
+/*----------------------- photoshop icon ------------------*/
+
 #photoshop:hover {
     background: #e8f3f4;
 }
+
+#ps-icon {
+    border-color: var(--turquoise);
+}
+
+#ps-icon .color-bar {
+    background: var(--turquoise);
+}
+
+#ps-icon p {
+    color: var(--turquoise);
+}
+
+.software:hover #ps-icon p {
+    color: white;
+}
+
+.software:hover #ps-click{
+    color: var(--turquoise);
+}
+
+/*-------------------------------------------------------*/
+
 
 .src {
     color: grey;
@@ -73,6 +197,11 @@
 }
 
 @media (max-width: 550px) {
+
+    :root {
+        --software-icon-width: 28px;
+        --software-icon-height: 28px;
+    }
 
     .main {
         width: 80%;
@@ -90,12 +219,11 @@
         padding-left: 7%;
     }  
 
-    .software-title {
-        height: 30px;
+    .software-icon {
+        border: 1px solid var(--purple);
     }
 
-    .software-icon {
-        width: 30px;
+    .software-title {
         height: 30px;
     }
 
@@ -103,6 +231,18 @@
         margin-left: 40px;
         font-size: 16px;
         line-height: 30px;
+    }
+
+    .software-click {
+        margin-left: 20px;
+    }
+
+    .software:hover .software-click {
+        margin-left: 40px;
+    }
+
+    .software-description {
+        margin-left: 40px;
     }
 
 }
