@@ -84,13 +84,14 @@
 
 .software-click {
     margin-left: 20px;
-    color: white;
+    opacity: 0;
     font-family: Arial;
     font-size: 12px;
     transition: all 0.25s;
 }
 
 .software:hover .software-click {
+    opacity: 1;
     color: var(--purple);
     text-shadow: 0.3px 0.3px black;
     margin-left: 60px;
