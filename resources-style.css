@@ -58,22 +58,21 @@
 
 
 
-
-@media (max-width: 850px) {
-
-	img {
-		max-width: 75%;
-		max-height: 75%;
-	}
-
-}
-
-
 @media (max-width: 550px) {
 
-	img {
+	.img-tall {
+		max-width: 50%;
+		max-height: 50%;
+	}
+
+	.img-square {
 		max-width: 65%;
 		max-height: 65%;
+	}
+
+	.img-long {
+		max-width: 75%;
+		max-height: 75%;
 	}
 
 	.resource-title {
