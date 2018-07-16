@@ -12,6 +12,14 @@ table {
 	margin-bottom: 30px;
 }
 
+.table-title {
+    border: 3px var(--purple) solid;
+}
+
+.table-main {
+    border: 3px #e8e5e5 solid;
+}
+
 th, td {
     text-align: left;
     padding: 8px;
