@@ -47,12 +47,25 @@
 
  a {
  	color: black;
+	word-spacing: 0;
  }
 
  a:hover {
  	color: var(--purple);
  }
 
+
+
+
+
+@media (max-width: 850px) {
+
+	img {
+		max-width: 75%;
+		max-height: 75%;
+	}
+
+}
 
 
 @media (max-width: 550px) {
