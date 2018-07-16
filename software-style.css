@@ -92,8 +92,7 @@
 
 .software:hover .software-click {
     opacity: 1;
-    color: var(--purple);
-    text-shadow: 0.3px 0.3px black;
+    color: grey;
     margin-left: 60px;
 }
 
@@ -132,11 +131,6 @@
 }
 
 
-.software:hover #an-click{
-    color: var(--red);
-}
-
-
 /*----------------------- illustrator icon ------------------*/
 
 #illustrator:hover {
@@ -159,10 +153,6 @@
     color: white;
 }
 
-.software:hover #ai-click{
-    color: var(--orange);
-}
-
 /*----------------------- photoshop icon ------------------*/
 
 #photoshop:hover {
@@ -183,10 +173,6 @@
 
 .software:hover #ps-icon p {
     color: white;
-}
-
-.software:hover #ps-click{
-    color: var(--turquoise);
 }
 
 /*-------------------------------------------------------*/
@@ -222,6 +208,11 @@
 
     .software-icon {
         border: 1px solid var(--purple);
+    }
+
+
+    .software-icon p {
+        font-size: 15px;
     }
 
     .software-title {

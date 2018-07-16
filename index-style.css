@@ -133,7 +133,7 @@ p {
 	width: 100px;
 	text-align: right;
 	float: left;
-	border-bottom: 1.5px white solid;
+	border-bottom: 1.5px #f9f9f9 solid;
 }
 
 .content-left:hover {

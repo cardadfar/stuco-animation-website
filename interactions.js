@@ -1,10 +1,5 @@
-$("#syllabus").click(function() {
-    window.open('syllabus.pdf', '_blank');
-});
 
-$("#google-drive").click(function() {
-    window.open('www.google.com', '_blank');
-});
+/*-------------------NAV BAR------------------*/
 
 $("#overview").click(function() {
     window.location.href = 'index.html';
@@ -29,6 +24,56 @@ $("#resources").click(function() {
 $("#faq").click(function() {
     window.location.href = 'faq.html';
 });
+
+/*-------------------OVERVIEW------------------*/
+
+$("#syllabus").click(function() {
+    window.open('syllabus.pdf', '_blank');
+});
+
+
+/*-------------------ASSIGNMENTS------------------*/
+
+$("#google-drive").click(function() {
+    window.open('www.google.com', '_blank');
+});
+
+
+$("#youtube").click(function() {
+    window.open('www.youtube.com', '_blank');
+});
+
+
+$("#tumblr").click(function() {
+    window.open('www.tumblr.com', '_blank');
+});
+
+
+$("#vimeo").click(function() {
+    window.open('www.vimeo.com', '_blank');
+});
+
+
+
+/*-------------------SOFTWARE------------------*/
+
+$("#after-effects").click(function() {
+    window.open('https://www.adobe.com/products/aftereffects.html', '_blank');
+});
+
+$("#animate").click(function() {
+    window.open('https://www.adobe.com/products/animate.html', '_blank');
+});
+
+$("#illustrator").click(function() {
+    window.open('https://www.adobe.com/products/illustrator.html', '_blank');
+});
+
+$("#photoshop").click(function() {
+    window.open('https://www.adobe.com/products/photoshop.html', '_blank');
+});
+
+
 
 
 /*-------------------FAQ------------------*/

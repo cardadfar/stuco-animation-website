@@ -1,5 +1,8 @@
 :root {
 	--purple: #570268;
+    --red: #f45342;
+    --purple-grey: #35465c;
+    --blue: #30abf2;
 }
 
 .sub-text {
@@ -49,6 +52,68 @@ th {
 #last-table {
     border-bottom: 1px black solid;
 }
+
+.space {
+    margin-bottom: 20px;
+}
+
+
+/*----------------------- youtube button ---------------------*/
+
+#youtube {
+    border-color: var(--red);
+}
+
+#youtube p {
+    color: var(--red);
+}
+
+#youtube .color-bar {
+    background: var(--red);
+}
+
+#youtube:hover p {
+    color: white;
+}
+
+
+/*----------------------- tumblr button ---------------------*/
+
+#tumblr {
+    border-color: var(--purple-grey);
+}
+
+#tumblr p {
+    color: var(--purple-grey);
+}
+
+#tumblr .color-bar {
+    background: var(--purple-grey);
+}
+
+#tumblr:hover p {
+    color: white;
+}
+
+
+/*----------------------- vimeo button ---------------------*/
+
+#vimeo {
+    border-color: var(--blue);
+}
+
+#vimeo p {
+    color: var(--blue);
+}
+
+#vimeo .color-bar {
+    background: var(--blue);
+}
+
+#vimeo:hover p {
+    color: white;
+}
+
 
 
 @media (max-width: 800px) {
