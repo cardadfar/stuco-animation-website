@@ -22,6 +22,10 @@ $("#software").click(function() {
     window.location.href = 'software.html';
 });
 
+$("#resources").click(function() {
+    window.location.href = 'resources.html';
+});
+
 $("#faq").click(function() {
     window.location.href = 'faq.html';
 });
