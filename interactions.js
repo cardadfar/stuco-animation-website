@@ -35,22 +35,22 @@ $("#syllabus").click(function() {
 /*-------------------ASSIGNMENTS------------------*/
 
 $("#google-drive").click(function() {
-    window.open('www.google.com', '_blank');
+    window.open('https://www.google.com', '_blank');
 });
 
 
 $("#youtube").click(function() {
-    window.open('www.youtube.com', '_blank');
+    window.open('https://www.youtube.com', '_blank');
 });
 
 
 $("#tumblr").click(function() {
-    window.open('www.tumblr.com', '_blank');
+    window.open('https://www.tumblr.com', '_blank');
 });
 
 
 $("#vimeo").click(function() {
-    window.open('www.vimeo.com', '_blank');
+    window.open('https://www.vimeo.com', '_blank');
 });
 
 
