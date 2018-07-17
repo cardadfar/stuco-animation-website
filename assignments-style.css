@@ -1,5 +1,4 @@
 :root {
-	--purple: #570268;
     --red: #f45342;
     --purple-grey: #35465c;
     --blue: #30abf2;
@@ -30,14 +29,6 @@ table {
 th, td {
     text-align: left;
     padding: 8px;
-}
-
-tr:hover{
-    background-color: #f2f2f2
-}
-
-tr:first-child:hover {
-    background-color: white;
 }
 
 th {

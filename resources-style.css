@@ -1,11 +1,9 @@
-:root {
-	--purple: #570268;
-}
+
 
 .divider {
 	width: 80%;
-	height: 1px;
-	background: grey;
+	height: 2px;
+	background: #c4c4c4;
 	margin: 50px 0 50px 10%;
 }
 
@@ -43,7 +41,7 @@
  }
 
  img{
- 	border: 1px #e2e2e2 solid;
+ 	border: 7px #e2e2e2 solid;
  }
 
  a {

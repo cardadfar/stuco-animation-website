@@ -1,5 +1,5 @@
 body {
-	background: #f9f9f9;
+	background: #f3f3f3;
 	margin: 0;
 }
 
@@ -7,7 +7,7 @@ body {
 	--syllabus-width: 175px;
 	--syllabus-height: 35px;
 
-	--purple: #570268;
+	--purple: #5a2c63;
 }
 
 
@@ -17,6 +17,7 @@ p {
 	font-size: 14px;
 	line-height: 20px;
 	margin: 0 0 0 0;
+	color: #424242;
 }
 
 /*---------------------- nav -------------------*/
@@ -32,7 +33,7 @@ p {
 	width: 100%;
 	padding: 10px 0 10px 0;
 	text-align: center;
-	color: white;
+	color: #f3f3f3;
 	font-family: 'Arial';
 	font-size: 13px;
 	line-height: 27px;
@@ -41,7 +42,7 @@ p {
 }
 
 .nav-bar .tab:hover {
-	background: #3b0047;
+	background: #47234f;
 	width: calc(100% + 10px);
 }
 
@@ -69,11 +70,12 @@ p {
 .sub-title {
 	margin: 6px 0 0 0;
 	font-size: 13px;
-	color: #424242;
+	color: #777777;
 }
 
 .body-text {
-	margin: 20px 0 20px 0;
+	margin: 20px 150px 20px 0;
+	text-indent: 2em;
 }
 
 
@@ -135,11 +137,13 @@ p {
 	text-align: right;
 	float: left;
 	border-bottom: 1.5px #f9f9f9 solid;
+	transition: all 0.3s;
 }
 
 .content-left:hover {
 	color: var(--purple);
 	border-color: var(--purple);
+	transition: all 0s;
 }
 
 .content-right {
