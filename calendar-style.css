@@ -20,6 +20,7 @@ table {
 th, td {
     text-align: left;
     padding: 8px;
+    color: #424242;
 }
 
 tr:nth-child(even){
