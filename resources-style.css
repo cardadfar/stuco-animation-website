@@ -65,6 +65,11 @@
 
 @media (max-width: 550px) {
 
+
+	.body-text {
+		margin-right: 15px;
+	}
+
 	.img-tall {
 		max-width: 50%;
 		max-height: 50%;
@@ -85,8 +90,12 @@
 	}
 
 	.resource-description {
+		text-align: justify;
 		font-size: 11px;
 		line-height: 15px;
+		width: auto;
+		margin-left: 0;
+		margin-right: 15px;
 	}
 
 	.resource-link {

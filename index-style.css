@@ -1,16 +1,18 @@
-body {
-	background: #f3f3f3;
-	margin: 0;
-}
 
 :root {
 	--syllabus-width: 175px;
 	--syllabus-height: 35px;
 
 	--purple: #5a2c63;
+	--bg-color: #f3f3f3;
 }
 
 
+
+body {
+	background: var(--bg-color);
+	margin: 0;
+}
 
 p {
 	font-family: Arial;
@@ -71,6 +73,10 @@ p {
 	margin: 6px 0 0 0;
 	font-size: 13px;
 	color: #777777;
+}
+
+.first-body-text {
+	margin: 20px 50px 20px 0;
 }
 
 .body-text {
@@ -136,7 +142,7 @@ p {
 	width: 100px;
 	text-align: right;
 	float: left;
-	border-bottom: 1.5px #f9f9f9 solid;
+	border-bottom: 1.5px var(--bg-color) solid;
 	transition: all 0.3s;
 }
 
@@ -205,7 +211,15 @@ p {
 		width: 70px;
 	}
 
+	.first-body-text {
+		text-align: justify;
+		margin-right: 15px;
+	}
 
+	.body-text {
+		text-align: justify;
+		margin-right: 15px;
+	}
 
 }
 
