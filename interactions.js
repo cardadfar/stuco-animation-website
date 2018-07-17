@@ -13,6 +13,10 @@ $("#assignments").click(function() {
     window.location.href = 'assignments.html';
 });
 
+$("#files").click(function() {
+    window.location.href = 'files.html';
+});
+
 $("#software").click(function() {
     window.location.href = 'software.html';
 });
@@ -28,7 +32,7 @@ $("#faq").click(function() {
 /*-------------------OVERVIEW------------------*/
 
 $("#syllabus").click(function() {
-    window.open('syllabus.pdf', '_blank');
+    window.open('assets/files/syllabus.pdf', '_blank');
 });
 
 
@@ -53,6 +57,28 @@ $("#vimeo").click(function() {
     window.open('https://www.vimeo.com', '_blank');
 });
 
+
+
+/*-------------------FILES------------------*/
+
+$("#syllabus").click(function() {
+    window.open('assets/files/syllabus.pdf', '_blank');
+});
+
+
+$("#storyboard-template").click(function() {
+    window.open('assets/files/storyboard template.ai', '_blank');
+});
+
+
+$("#smiley-demo").click(function() {
+    window.open('assets/files/smiley demo.fla', '_blank');
+});
+
+
+$("#smiley-demo-completed").click(function() {
+    window.open('assets/files/smiley demo (completed).fla', '_blank');
+});
 
 
 /*-------------------SOFTWARE------------------*/
