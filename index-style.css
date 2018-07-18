@@ -22,6 +22,16 @@ p {
 	color: #424242;
 }
 
+img{
+ 	border: 7px #e2e2e2 solid;
+ }
+
+ .resource-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /*---------------------- nav -------------------*/
 
 .nav-bar {
