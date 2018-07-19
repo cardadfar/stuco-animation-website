@@ -3,7 +3,15 @@
 /*-------------------COLOR--------------------*/
 
 var colorWell;
-var defaultColor = '#5a2c63';
+var curColor;
+var defaultColor;
+if(sessionStorage.getItem("bg_color") != null) {
+    defaultColor = sessionStorage.getItem("bg_color");
+}
+else {
+    defaultColor = '#5a2c63'; 
+}
+curColor = defaultColor;
 
 
 window.addEventListener("load", startup, false);
@@ -12,13 +20,29 @@ function startup() {
     colorWell.value = defaultColor;
     $(':root').css("--purple", defaultColor);
     colorWell.addEventListener("change", updateAll, false);
+    $(".tab").css("transition", "all 0.25s");
 }
 function updateAll(event) {
-    $(':root').css("--purple", event.target.value);
+    curColor = event.target.value;
+    $(':root').css("--purple", curColor);
+    sessionStorage.setItem("bg_color", curColor);
+}
+
+function resetColor() {
+    curColor = "#5a2c63";
+    colorWell.value = curColor;
+    $(':root').css("--purple", curColor);
+    sessionStorage.setItem("bg_color", curColor);
 }
 
 /*-------------------NAV BAR------------------*/
 
+$(".tab").hover(function() {
+    var darken = DarkenColor(curColor, 20);
+    $(this).css("background", darken);
+}, function() {
+    $(this).css("background", "unset");
+})
 
 $("#overview").click(function() {
     window.location.href = 'index.html';
