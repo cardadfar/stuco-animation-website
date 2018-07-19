@@ -25,6 +25,7 @@
  	text-align: center;
  	font-family: Arial;
 	color: grey;
+	font-size: 11px;
  }
 
 @media (max-width: 800px) {
@@ -46,5 +47,8 @@
 	.img-long {
 		max-width: 75%;
 		max-height: 75%;
+	}
+	.desc {
+		font-size: 8px;
 	}
 }
