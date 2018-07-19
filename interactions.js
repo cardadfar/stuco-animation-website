@@ -1,11 +1,17 @@
 
 
-var main_color = $(':root').css("--purple")
-
 /*-------------------COLOR--------------------*/
 
 var colorWell;
-var defaultColor = "#5a2c63";
+var defaultColor;
+
+$.getJSON( "assets/color.json", function( data ) {
+    $.each( data, function( key, val ) {
+        defaultColor = val;
+    });
+});
+
+var defaultColor = $(':root').css("--purple");
 
 window.addEventListener("load", startup, false);
 function startup() {
