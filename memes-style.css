@@ -12,11 +12,26 @@
 	margin-right: auto;
 }
 
+.img-small {
+	width: 50%;
+}
+
  img{
  	border: 7px #e2e2e2 solid;
  }
 
-@media (max-width: 550px) {
+ .desc {
+ 	width: 100%;
+ 	text-align: center;
+ 	font-family: Arial;
+	color: grey;
+ }
+
+@media (max-width: 800px) {
+
+	.img-small {
+		width: auto;
+	}
 
 	.img-tall {
 		max-width: 70%;
