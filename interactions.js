@@ -5,23 +5,21 @@
 var colorWell;
 var defaultColor;
 
-$.getJSON( "assets/color.json", function( data ) {
-    $.each( data, function( key, val ) {
-        defaultColor = val;
-    });
-});
-
-var defaultColor = $(':root').css("--purple");
 
 window.addEventListener("load", startup, false);
 function startup() {
-  colorWell = document.querySelector("#colorWell");
-  colorWell.value = defaultColor;
-  $(':root').css("--purple", defaultColor);
-  colorWell.addEventListener("change", updateAll, false);
+    colorWell = document.querySelector("#colorWell");
+    $.getJSON( "assets/color.json", function( data ) {
+        $.each( data, function( key, val ) {
+            defaultColor = val;
+        });
+    });
+    colorWell.value = defaultColor;
+    $(':root').css("--purple", defaultColor);
+    colorWell.addEventListener("change", updateAll, false);
 }
 function updateAll(event) {
-  $(':root').css("--purple", event.target.value);
+    $(':root').css("--purple", event.target.value);
 }
 
 /*-------------------NAV BAR------------------*/
