@@ -74,6 +74,10 @@ $("#faq").click(function() {
     window.location.href = 'faq.html';
 });
 
+$("#memes").click(function() {
+    window.location.href = 'memes.html';
+});
+
 /*-------------------OVERVIEW------------------*/
 
 $("#syllabus").click(function() {
