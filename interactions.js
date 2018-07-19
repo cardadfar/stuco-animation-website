@@ -22,7 +22,7 @@ function startup() {
         colorWell.value = defaultColor;
         colorWell.addEventListener("change", updateAll, false);
     }
-    $(".tab").css("transition", "all 0.2s");
+    $(".tab").css("transition", "all 0.25s");
 }
 function updateAll(event) {
     curColor = event.target.value;
