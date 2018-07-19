@@ -3,17 +3,12 @@
 /*-------------------COLOR--------------------*/
 
 var colorWell;
-var defaultColor;
+var defaultColor = '#5a2c63';
 
 
 window.addEventListener("load", startup, false);
 function startup() {
     colorWell = document.querySelector("#colorWell");
-    $.getJSON( "assets/color.json", {}, function( data ) {
-        $.each( data, function( key, val ) {
-            defaultColor = val;
-        });
-    });
     colorWell.value = defaultColor;
     $(':root').css("--purple", defaultColor);
     colorWell.addEventListener("change", updateAll, false);
