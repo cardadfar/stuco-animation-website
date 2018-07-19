@@ -8,7 +8,6 @@
 }
 
 
-
 body {
 	background: var(--bg-color);
 	margin: 0;
@@ -54,9 +53,10 @@ img{
 }
 
 .nav-bar .tab:hover {
-	background: #47234f;
 	width: calc(100% + 10px);
+	transition: all 0.25s;
 }
+
 
 
 /*---------------------- main -------------------*/
@@ -67,11 +67,21 @@ img{
 	float: right;
 }
 
+.title-header {
+	margin: 25px 5% 10px 0;
+	width: 95%;
+	float: left;
+}
+
 .main-title {
 	font-size: 25px;
-	margin: 25px 0 0 0;
 	font-weight: bold;
 	color: #545454;
+	float: left;
+}
+
+#colorWell {
+	float: right;
 }
 
 .title {
@@ -84,6 +94,7 @@ img{
 	margin: 6px 0 0 0;
 	font-size: 13px;
 	color: #777777;
+	width: 100%;
 }
 
 .first-body-text {
@@ -175,6 +186,12 @@ img{
 
 
 
+@media (max-width: 1000px) {
+
+	#colorWell {
+		float: left;
+		margin-top: 10px;
+	}
 
 
 @media (max-width: 550px) {
