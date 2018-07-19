@@ -192,11 +192,29 @@ img{
 		height: 65px;
 	}
 
+	.main-title {
+		width: 100%;
+	}
+
 	#colorWell {
 		float: left;
 		margin-top: 10px;
 	}
 
+
+@media (max-width: 850px) {
+
+	.main-title {
+		font-size: 16px;
+		line-height: 17px;
+	}
+
+	#colorWell {
+		width: 29px;
+		height: 15px;
+	}
+
+}
 
 @media (max-width: 550px) {
 
