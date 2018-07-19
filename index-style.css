@@ -186,7 +186,11 @@ img{
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1040px) {
+
+	.title-header {
+		height: 65px;
+	}
 
 	#colorWell {
 		float: left;
@@ -212,6 +216,10 @@ img{
 
 	.nav-bar .tab {
 		font-size: 10px;
+	}
+
+	.title-header {
+		height: 75px;
 	}
 
 	.main {
