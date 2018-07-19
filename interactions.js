@@ -16,11 +16,13 @@ curColor = defaultColor;
 
 window.addEventListener("load", startup, false);
 function startup() {
-    colorWell = document.querySelector("#colorWell");
-    colorWell.value = defaultColor;
     $(':root').css("--purple", defaultColor);
-    colorWell.addEventListener("change", updateAll, false);
-    $(".tab").css("transition", "all 0.25s");
+    colorWell = document.querySelector("#colorWell");
+    if(colorWell != null) {
+        colorWell.value = defaultColor;
+        colorWell.addEventListener("change", updateAll, false);
+    }
+    $(".tab").css("transition", "all 0.2s");
 }
 function updateAll(event) {
     curColor = event.target.value;

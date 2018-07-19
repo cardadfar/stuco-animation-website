@@ -2,6 +2,7 @@
     --software-icon-width: 36px;
     --software-icon-height: 36px;
 
+    --violet: #5a2c63;
     --red: #ff5439;
     --orange: #ffb33a;
     --turquoise: #92bbfc;
@@ -105,6 +106,22 @@
 
 #after-effects:hover {
     background: #f7e5ff;
+}
+
+#ae-icon {
+    border-color: var(--violet);
+}
+
+#ae-icon .color-bar {
+    background: var(--violet);
+}
+
+#ae-icon p {
+    color: var(--violet);
+}
+
+.software:hover #ae-icon p {
+    color: white;
 }
 
 /*----------------------- animate icon ------------------*/
