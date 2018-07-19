@@ -12,7 +12,7 @@
     margin: 0 0 0 0;
 }
 
-.main-title {
+.main-title-alone {
     margin-left: 4%;
 }
 
@@ -193,7 +193,7 @@
         width: 80%;
     }
 
-    .main-title {
+    .main-title-alone {
         margin-left: 7%;
     }
 

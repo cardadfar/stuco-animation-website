@@ -78,6 +78,13 @@ img{
 	float: left;
 }
 
+.main-title-alone {
+	margin: 25px 0 10px 0;
+	font-size: 25px;
+	font-weight: bold;
+	color: #545454;
+}
+
 #colorWell {
 	float: right;
 }
@@ -232,6 +239,10 @@ img{
 		line-height: 17px;
 	}
 
+	.main-title-alone {
+		font-size: 16px;
+	}
+
 	#colorWell {
 		width: 29px;
 		height: 15px;
@@ -240,10 +251,11 @@ img{
 	.reset {
 		line-height: 15px;
 		font-size: 11px;
+		margin-top: 12px;
 	}
 
 	.reset-divider {
-		margin-top: 12px;
+		margin-top: 14px;
 		margin-bottom: 2px;
 		height: 11px;
 	}
