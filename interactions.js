@@ -9,7 +9,7 @@ var defaultColor;
 window.addEventListener("load", startup, false);
 function startup() {
     colorWell = document.querySelector("#colorWell");
-    $.getJSON( "assets/color.json", function( data ) {
+    $.getJSON( "assets/color.json", {}, function( data ) {
         $.each( data, function( key, val ) {
             defaultColor = val;
         });
