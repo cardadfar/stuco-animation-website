@@ -210,16 +210,25 @@ img{
 	height: 30px;
 }
 
-.footer-comp {
+.footer-comp:first-child {
 	margin-left: 15%;
+	float: left;
 	width: 100px;
 	height: 30px;
 	transition: all 0.25s;
 }
 
+.footer-comp {
+	margin-left: 25px;
+	float: left;
+	width: 120px;
+	height: 30px;
+	transition: all 0.25s;
+}
+
 .footer-img {
-	height: 74%;
-	margin: 4%;
+	height: 65%;
+	margin: 5%;
 	margin-right: 10px;
 	margin-left: 10px;
 	border: none;
@@ -356,7 +365,7 @@ img{
 	}
 
 	.footer-img {
-		margin-top: 5%;
+		margin-top: 6%;
 		height: 50%;
 	}
 
