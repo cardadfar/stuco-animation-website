@@ -94,12 +94,25 @@ $("#memes").click(function() {
     window.location.href = 'memes.html';
 });
 
-/*-------------------OVERVIEW------------------*/
+/*-------------------FOOTER--------------------*/
+
+$("#github-footer").click(function() {
+    window.open('https://github.com/cardadfar/', '_blank');
+});
+
+$("#drive-footer").click(function() {
+    window.open('https://www.google.com/drive/', '_blank');
+});
+
+$("#syllabus-footer").click(function() {
+    window.open('assets/files/syllabus.pdf', '_blank');
+});
+
+/*-------------------OVERVIEW--------------------*/
 
 $("#syllabus").click(function() {
     window.open('assets/files/syllabus.pdf', '_blank');
 });
-
 
 /*-------------------ASSIGNMENTS------------------*/
 
