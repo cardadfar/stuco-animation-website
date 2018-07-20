@@ -11,6 +11,7 @@
 body {
 	background: var(--bg-color);
 	margin: 0;
+	overflow-x: hidden;
 }
 
 p {
@@ -211,9 +212,11 @@ img{
 .github {
 	font-family: Arial;
 	font-size: 14px;
-	line-height: 30px;	
+	line-height: 30px;
+	width: 100px;
+	text-align: center;	
 	color: white;
-	margin-left: 17%;
+	margin-left: 15%;
 }
 
 
@@ -329,6 +332,12 @@ img{
 	.body-text {
 		text-align: justify;
 		margin-right: 6.5%;
+	}
+
+	.github {
+		margin-left: 20%;
+		font-size: 11px;
+		width: 75px;
 	}
 
 }

@@ -22,7 +22,15 @@ function startup() {
         colorWell.value = defaultColor;
         colorWell.addEventListener("change", updateAll, false);
     }
+
     $(".tab").css("transition", "all 0.25s");
+
+    var footer_hgt = $(".footer").position().top;
+    var window_hgt = $(window).height();
+    if(footer_hgt < window_hgt) {
+        diff = window_hgt - footer_hgt;
+        $(".footer").css("margin-top", diff);
+    }
 }
 function updateAll(event) {
     curColor = event.target.value;
@@ -40,6 +48,13 @@ function resetColor() {
 /*-------------------NAV BAR------------------*/
 
 $(".tab").hover(function() {
+    var darken = DarkenColor(curColor, 20);
+    $(this).css("background", darken);
+}, function() {
+    $(this).css("background", "unset");
+})
+
+$(".github").hover(function() {
     var darken = DarkenColor(curColor, 20);
     $(this).css("background", darken);
 }, function() {
