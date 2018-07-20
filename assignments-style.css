@@ -50,6 +50,12 @@ th {
     float: left;
 }
 
+.bottom-buttons {
+    width: 100%;
+    height: var(--syllabus-height);
+    margin-bottom: 50px;
+}
+
 
 /*----------------------- youtube button ---------------------*/
 
@@ -115,6 +121,16 @@ th {
         width: 80%;
     }
 
+    .bottom-buttons {
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
+
+    .space {
+        float: none;
+    }
+
 }
 
 @media (max-width: 550px) {
@@ -123,5 +139,4 @@ th {
         width: 95%;
         font-size: 10px;
     }
-
 }
