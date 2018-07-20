@@ -13,6 +13,10 @@ else {
 }
 curColor = defaultColor;
 
+$(window).load(function() {
+    $(".loading-screen").removeClass("grey-screen");
+})
+
 
 window.addEventListener("load", startup, false);
 function startup() {
@@ -32,7 +36,6 @@ function startup() {
         $(".footer").css("margin-top", diff);
     }
 
-    $(".loading-screen").removeClass("grey-screen");
 }
 function updateAll(event) {
     curColor = event.target.value;
