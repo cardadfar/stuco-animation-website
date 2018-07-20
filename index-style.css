@@ -207,16 +207,32 @@ img{
 
 .footer {
 	background: var(--purple);
+	height: 30px;
 }
 
-.github {
+.footer-comp {
+	margin-left: 15%;
+	width: 100px;
+	height: 30px;
+	transition: all 0.25s;
+}
+
+.footer-img {
+	height: 74%;
+	margin: 4%;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: none;
+	float: left;
+}
+
+.footer-text {
 	font-family: Arial;
 	font-size: 14px;
 	line-height: 30px;
-	width: 100px;
 	text-align: center;	
 	color: white;
-	margin-left: 15%;
+	float: left;
 }
 
 
@@ -334,7 +350,7 @@ img{
 		margin-right: 6.5%;
 	}
 
-	.github {
+	.footer-text {
 		margin-left: 20%;
 		font-size: 11px;
 		width: 75px;

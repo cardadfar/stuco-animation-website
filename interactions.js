@@ -54,7 +54,7 @@ $(".tab").hover(function() {
     $(this).css("background", "unset");
 })
 
-$(".github").hover(function() {
+$(".footer-comp").hover(function() {
     var darken = DarkenColor(curColor, 20);
     $(this).css("background", darken);
 }, function() {
