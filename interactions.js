@@ -31,6 +31,8 @@ function startup() {
         diff = window_hgt - footer_hgt;
         $(".footer").css("margin-top", diff);
     }
+
+    $(".loading-screen").removeClass("grey-screen");
 }
 function updateAll(event) {
     curColor = event.target.value;
