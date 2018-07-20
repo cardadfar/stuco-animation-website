@@ -357,6 +357,12 @@ img{
 		line-height: 15px;
 	}
 
+	.loading-screen-text {
+		width: 80%;
+		margin-left: 20%;
+		margin-top: 50%;
+	}
+
 	.nav-bar {
 		width: 20%;
 	}
