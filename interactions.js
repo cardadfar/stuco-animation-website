@@ -14,8 +14,6 @@ else {
 curColor = defaultColor;
 
 
-
-
 window.addEventListener("load", startup, false);
 function startup() {
     $(':root').css("--purple", defaultColor);
@@ -34,8 +32,6 @@ function startup() {
         $(".footer").css("margin-top", diff);
     }
 
-    $(".loading-screen").removeClass("loading-screen-on");
-    setTimeout(function() {$(".loading-screen").css("display", "none") }, 500);
 }
 function updateAll(event) {
     curColor = event.target.value;
