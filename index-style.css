@@ -350,10 +350,18 @@ img{
 		margin-right: 6.5%;
 	}
 
-	.footer-text {
+	.footer-comp {
 		margin-left: 20%;
-		font-size: 11px;
-		width: 75px;
+		width: 90px;
+	}
+
+	.footer-img {
+		margin-top: 5%;
+		height: 50%;
+	}
+
+	.footer-text {
+		font-size: 10px;
 	}
 
 }
