@@ -34,7 +34,8 @@ function startup() {
         $(".footer").css("margin-top", diff);
     }
 
-    $(".loading-screen").removeClass("grey-screen");
+    $(".loading-screen").removeClass("loading-screen-on");
+    setTimeout(function() {$(".loading-screen").css("display", "none") }, 500);
 }
 function updateAll(event) {
     curColor = event.target.value;
