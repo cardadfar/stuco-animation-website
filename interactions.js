@@ -97,11 +97,11 @@ $("#memes").click(function() {
 /*-------------------FOOTER--------------------*/
 
 $("#github-footer").click(function() {
-    window.open('https://github.com/cardadfar/', '_blank');
+    window.open('https://github.com/cardadfar/stuco-animation-website', '_blank');
 });
 
 $("#drive-footer").click(function() {
-    window.open('https://www.google.com/drive/', '_blank');
+    window.open('https://drive.google.com/drive/folders/1MxXb-ClOQePgm1Dph5djVzd84thkhZBZ?usp=sharing', '_blank');
 });
 
 $("#syllabus-footer").click(function() {
@@ -117,7 +117,7 @@ $("#syllabus").click(function() {
 /*-------------------ASSIGNMENTS------------------*/
 
 $("#google-drive").click(function() {
-    window.open('https://www.google.com', '_blank');
+    window.open('https://drive.google.com/drive/folders/1MxXb-ClOQePgm1Dph5djVzd84thkhZBZ?usp=sharing', '_blank');
 });
 
 
