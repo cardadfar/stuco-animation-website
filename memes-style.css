@@ -1,4 +1,14 @@
 
+:root {
+    --youtube-width: 560px; 
+}
+
+.youtube {
+	width: var(--youtube-width);
+	height: calc( 0.5625 * (var(--youtube-width)) );
+	margin-left: calc( 50% - (calc( 0.5 * var(--youtube-width) ) ) );
+}
+
 .divider {
 	width: 80%;
 	height: 2px;
@@ -29,6 +39,10 @@
  }
 
 @media (max-width: 800px) {
+
+	:root {
+    --youtube-width: 50vw; 
+	}
 
 	.img-small {
 		width: auto;
