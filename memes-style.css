@@ -46,6 +46,8 @@
 
 	.img-small {
 		width: auto;
+		max-width: 85%;
+		max-height: 85%;
 	}
 
 	.img-tall {
