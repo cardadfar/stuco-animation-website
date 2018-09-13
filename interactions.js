@@ -144,6 +144,11 @@ $("#syllabus").click(function() {
 });
 
 
+$("#cartoon walls").click(function() {
+    window.open('assets/files/cartoon walls.zip', '_blank');
+});
+
+
 $("#storyboard-template").click(function() {
     window.open('assets/files/storyboard template.ai', '_blank');
 });
