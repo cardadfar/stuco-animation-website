@@ -144,7 +144,7 @@ $("#syllabus").click(function() {
 });
 
 
-$("#cartoon walls").click(function() {
+$("#cartoon-walls").click(function() {
     window.open('assets/files/cartoon walls.zip', '_blank');
 });
 
