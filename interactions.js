@@ -153,6 +153,10 @@ $("#city-vectors").click(function() {
     window.open('assets/files/city vectors.zip', '_blank');
 });
 
+$("#midterm-starter").click(function() {
+    window.open('assets/files/midterm starter.zip', '_blank');
+});
+
 
 $("#storyboard-template").click(function() {
     window.open('assets/files/storyboard template.ai', '_blank');
