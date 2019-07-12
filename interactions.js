@@ -191,7 +191,7 @@ $("#expressive-systems").click(function() {
 
 $(".week_slides").click(function() {
     var id = $(this).attr('id');
-    var slidesURL = "assets/lectures/AVE_lecture_" + id.substring(id.indexOf('_') + 1) + '.pdf';
+    var slidesURL = "assets/lectures/AVE_Lecture_" + id.substring(id.indexOf('_') + 1) + '.pdf';
     window.open(slidesURL, '_blank');
 });
 
