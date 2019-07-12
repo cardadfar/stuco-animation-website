@@ -144,34 +144,56 @@ $("#syllabus").click(function() {
 });
 
 
-$("#cartoon-walls").click(function() {
-    window.open('assets/files/cartoon walls.zip', '_blank');
-});
-
-
-$("#city-vectors").click(function() {
-    window.open('assets/files/city vectors.zip', '_blank');
-});
-
-$("#midterm-starter").click(function() {
-    window.open('assets/files/midterm starter.zip', '_blank');
-});
-
-
 $("#storyboard-template").click(function() {
-    window.open('assets/files/storyboard template.ai', '_blank');
+    window.open('assets/files/storyboard_template.ai', '_blank');
+});
+
+
+$("#storyboard-template-compact").click(function() {
+    window.open('assets/files/storyboard_template_[compact].ai', '_blank');
 });
 
 
 $("#smiley-demo").click(function() {
-    window.open('assets/files/smiley demo.fla', '_blank');
+    window.open('assets/files/smiley_demo.fla', '_blank');
 });
 
 
 $("#smiley-demo-completed").click(function() {
-    window.open('assets/files/smiley demo (completed).fla', '_blank');
+    window.open('assets/files/smiley_demo_[completed].fla', '_blank');
 });
 
+
+$("#transformations-kinematics").click(function() {
+    window.open('assets/files/transformations_and_kinematics.aep', '_blank');
+});
+
+
+$("#welcome-to-vegas").click(function() {
+    window.open('assets/files/welcome_to_vegas.aep', '_blank');
+});
+
+
+$("#city-vectors").click(function() {
+    window.open('assets/files/city_vectors.zip', '_blank');
+});
+
+
+$("#cartoon-walls").click(function() {
+    window.open('assets/files/cartoon_walls.zip', '_blank');
+});
+
+
+$("#expressive-systems").click(function() {
+    window.open('assets/files/expressive_systems.aep', '_blank');
+});
+
+
+$(".week_slides").click(function() {
+    var id = $(this).attr('id');
+    var slidesURL = "assets/lectures/AVE_lecture_" + id.substring(id.indexOf('_') + 1) + '.pdf';
+    window.open(slidesURL, '_blank');
+});
 
 /*-------------------SOFTWARE------------------*/
 
