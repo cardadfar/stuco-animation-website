@@ -40,7 +40,7 @@ th {
     font-style: italic;
 }
 
-#last-table {
+.last-table {
     border-bottom: 1px black solid;
 }
 

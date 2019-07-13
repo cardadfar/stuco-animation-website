@@ -101,7 +101,7 @@ $("#github-footer").click(function() {
 });
 
 $("#drive-footer").click(function() {
-    window.open('https://drive.google.com/drive/folders/1MxXb-ClOQePgm1Dph5djVzd84thkhZBZ?usp=sharing', '_blank');
+    window.open('https://drive.google.com/drive/folders/1cT0joRSPsfGIFxPr57XMv6ax47OgDHFH?usp=sharing', '_blank');
 });
 
 $("#syllabus-footer").click(function() {
@@ -117,7 +117,7 @@ $("#syllabus").click(function() {
 /*-------------------ASSIGNMENTS------------------*/
 
 $("#google-drive").click(function() {
-    window.open('https://drive.google.com/drive/folders/1MxXb-ClOQePgm1Dph5djVzd84thkhZBZ?usp=sharing', '_blank');
+    window.open('https://drive.google.com/drive/folders/1cT0joRSPsfGIFxPr57XMv6ax47OgDHFH?usp=sharing', '_blank');
 });
 
 
