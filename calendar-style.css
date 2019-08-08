@@ -41,6 +41,11 @@ th {
     cursor: pointer;
 }
 
+.poll:hover {
+    cursor: pointer;
+    text-decoration: underline
+}
+
 @media (max-width: 550px) {
 
 	table{
