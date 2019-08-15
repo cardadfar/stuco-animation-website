@@ -137,6 +137,60 @@ $("#vimeo").click(function() {
 
 
 
+/*-------------------POLLS------------------*/
+
+$("#poll-02").click(function() {
+    window.open('https://forms.gle/fXZPGGQfZUKYH8uUA', '_blank');
+});
+
+$("#poll-03").click(function() {
+    window.open('https://forms.gle/3uwTZUmfwskHJk6v7', '_blank');
+});
+
+$("#poll-04").click(function() {
+    window.open('https://forms.gle/ij2pFz2ShCrbc5226', '_blank');
+});
+
+$("#poll-05").click(function() {
+    window.open('https://forms.gle/eayMb7tZMcDUceKs6', '_blank');
+});
+
+$("#poll-06").click(function() {
+    window.open('https://forms.gle/XUL9SEd91jfRf2uB6', '_blank');
+});
+
+$("#poll-07").click(function() {
+    window.open('https://forms.gle/u6WcJDsMaAtDh2Qu7', '_blank');
+});
+
+$("#poll-08").click(function() {
+    window.open('https://forms.gle/5bxgmKNaGV14me29A', '_blank');
+});
+
+$("#poll-09").click(function() {
+    window.open('https://forms.gle/YpgUGJRMnLWhQ4Ty9', '_blank');
+});
+
+$("#poll-10").click(function() {
+    window.open('https://forms.gle/BtqLyrUmnU8yZLbu7', '_blank');
+});
+
+$("#poll-11").click(function() {
+    window.open('https://forms.gle/y91uyxDmQf5uTgUk9', '_blank');
+});
+
+$("#poll-12").click(function() {
+    window.open('https://forms.gle/s9cJwZrctLBRn6R58', '_blank');
+});
+
+$("#poll-13").click(function() {
+    window.open('https://forms.gle/vG2BE8Yb77zPNU1E6', '_blank');
+});
+
+
+
+
+
 /*-------------------FILES------------------*/
 
 $("#syllabus").click(function() {
