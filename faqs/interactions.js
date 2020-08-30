@@ -63,35 +63,35 @@ $(".footer-comp").hover(function() {
 })
 
 $("#overview").click(function() {
-    window.location.href = 'index.html';
+    window.location.href = '../index.html';
 });
 
 $("#calendar").click(function() {
-    window.location.href = 'calendar.html';
+    window.location.href = '../calendar.html';
 });
 
 $("#assignments").click(function() {
-    window.location.href = 'assignments.html';
+    window.location.href = '../assignments.html';
 });
 
 $("#files").click(function() {
-    window.location.href = 'files.html';
+    window.location.href = '../files.html';
 });
 
 $("#software").click(function() {
-    window.location.href = 'software.html';
+    window.location.href = '../software.html';
 });
 
 $("#resources").click(function() {
-    window.location.href = 'resources.html';
+    window.location.href = '../resources.html';
 });
 
 $("#faq").click(function() {
-    window.location.href = 'faq.html';
+    window.location.href = '../faq.html';
 });
 
 $("#memes").click(function() {
-    window.location.href = 'memes.html';
+    window.location.href = '../memes.html';
 });
 
 /*-------------------FOOTER--------------------*/
