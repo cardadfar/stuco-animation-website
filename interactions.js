@@ -101,7 +101,7 @@ $("#github-footer").click(function() {
 });
 
 $("#drive-footer").click(function() {
-    window.open('https://drive.google.com/drive/folders/1n1z3NX5XCB-XIO6VDXq3cM34f7nMH_2P?usp=sharing', '_blank');
+    window.open('https://drive.google.com/drive/u/1/folders/1n1z3NX5XCB-XIO6VDXq3cM34f7nMH_2P', '_blank');
 });
 
 $("#syllabus-footer").click(function() {
