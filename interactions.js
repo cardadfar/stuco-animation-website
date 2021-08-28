@@ -117,7 +117,7 @@ $("#syllabus").click(function() {
 /*-------------------ASSIGNMENTS------------------*/
 
 $("#google-drive").click(function() {
-    window.open('https://drive.google.com/drive/u/1/folders/1n1z3NX5XCB-XIO6VDXq3cM34f7nMH_2P', '_blank');
+    window.open('https://drive.google.com/drive/folders/1FDElRWKKNck7E8QQ2bf8CZETJCmk1fZe?usp=sharing', '_blank');
 });
 
 
